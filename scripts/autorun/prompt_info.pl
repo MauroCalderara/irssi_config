@@ -1,0 +1,1 @@
+../../external-scripts/shabble-irssi-scripts/prompt_info/old/prompt_info.pl

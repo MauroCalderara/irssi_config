@@ -1,0 +1,12 @@
+[submodule "external-scripts/irssi-powerline"]
+	path = external-scripts/irssi-powerline
+	url = https://github.com/darac/irssi-powerline
+	branch = master
+[submodule "external-scripts/shabble-irssi-scripts"]
+	path = external-scripts/shabble-irssi-scripts
+	url = https://github.com/shabble/irssi-scripts.git
+	branch = master
+[submodule "external-scripts/scripts.irssi.org"]
+	path = external-scripts/scripts.irssi.org
+	url = https://github.com/irssi/scripts.irssi.org.git
+	branch = gh-pages

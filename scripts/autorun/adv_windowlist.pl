@@ -1,0 +1,1 @@
+../../external-scripts/irssi-powerline/scripts/autorun/adv_windowlist.pl
