@@ -2,3 +2,4 @@ default.theme
 logs/
 .git-filters/*.real
 *.swp
+config.autosave

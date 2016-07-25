@@ -232,11 +232,12 @@ settings = {
 };
 keyboard = (
   { key = "meta-[M"; id = "command"; data = "mouse_xterm"; },
-  { key = "meta-i"; id = "next_window_item"; data = ""; },
-  { key = "meta-h"; id = "previous_window"; data = ""; },
-  { key = "meta-j"; id = "previous_window"; data = ""; },
-  { key = "meta-k"; id = "next_window"; data = ""; },
-  { key = "meta-l"; id = "next_window"; data = ""; }
+  { key = "^I"; id = "next_window_item"; data = ""; },
+  { key = "^U"; id = "next_window_item"; data = ""; },
+  { key = "^H"; id = "previous_window"; data = ""; },
+  { key = "^J"; id = "previous_window"; data = ""; },
+  { key = "^K"; id = "next_window"; data = ""; },
+  { key = "^L"; id = "next_window"; data = ""; }
 );
 logs = { };
 hilights = ( { text = "<nickname>"; nick = "no"; word = "yes"; } );
@@ -245,6 +246,6 @@ windows = {
   2 = { name = "hilight"; sticky = "yes"; };
 };
 mainwindows = {
-  1 = { first_line = "8"; lines = "48"; };
-  2 = { first_line = "1"; lines = "7"; };
+  1 = { first_line = "9"; lines = "18"; };
+  2 = { first_line = "1"; lines = "8"; };
 };
