@@ -236,7 +236,7 @@ keyboard = (
   { key = "meta-h"; id = "previous_window"; data = ""; },
   { key = "meta-j"; id = "previous_window"; data = ""; },
   { key = "meta-k"; id = "next_window"; data = ""; },
-  { key = "meta-l"; id = "next_window"; data = ""; },
+  { key = "meta-l"; id = "next_window"; data = ""; }
 );
 logs = { };
 hilights = ( { text = "<nickname>"; nick = "no"; word = "yes"; } );
